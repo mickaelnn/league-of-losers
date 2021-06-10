@@ -20,6 +20,3 @@ npm install
 ```
 serverless offline
 ```
-```
-npm run serve
-```
