@@ -15,9 +15,9 @@ provider:
   region: us-east-1
 
 functions:
-  hello:
-    handler: handler.hello
+  getSummonerData:
+    handler: summoner/getSummoner.get
     events:
       - http:
-          path: hello
+          path: summoner/{summonerName}
           method: get
