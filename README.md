@@ -1,24 +1,25 @@
 # league-of-losers
-
-## Project setup
+League of Losers is a project to get data from riot games API.
+## Front End setup
+```
+cd app
+```
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+## Back End setup
 ```
-npm run build
+cd api
 ```
-
-### Lints and fixes files
 ```
-npm run lint
+npm install
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+serverless offline
+```
+```
+npm run serve
+```
