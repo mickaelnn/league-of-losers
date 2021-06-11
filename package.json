@@ -1,0 +1,22 @@
+{
+    "name": "league-of-losers",
+    "version": "0.1.0",
+    "dir": {
+        "app": "app",
+        "api": "api"
+      }, 
+    "scripts": {
+        "install-api": "cd api && npm install && cd ..",
+        "install-app": "cd app && npm install && cd ..",
+        "install-all": "npm run install-app && npm run install-api",
+        "api": "npm run start --prefix api",
+        "app": "npm run serve --prefix app",
+        "build-app": "npm run build --prefix app"
+      },
+    "author": "alanneves",
+    "license": "MIT",
+    "repository": {
+       "type": "git",
+       "url": "https://github.com/alanneves/league-of-losers.git"
+      }
+}
