@@ -2,21 +2,15 @@
 League of Losers is a project to get data from riot games API.
 ## Front End setup
 ```
-cd app
+npm run install-app
 ```
 ```
-npm install
-```
-```
-npm run serve
+npm run app
 ```
 ## Back End setup
 ```
-cd api
+npm install api
 ```
 ```
-npm install
-```
-```
-serverless offline
+npm run api
 ```
